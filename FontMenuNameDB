@@ -1,43 +1,34 @@
 #!opentype
 
-# This file must be synced to `MM/instances`.
-# Entries `l` and `m` are required if this is not a typical
-#   style-linked Regular/Bold/Italic/BoldItalic family.
+# This file must be synced to `masters/instances`.
+# `l` is the style-linking family name. `m` is deprecated.
 
 # [PostScriptName]
-#   f=  Preferred Family Name
-#   s=  Subfamily Name (Style Name)
-#   l=  Compatible Family Menu Name
-#   m=1,Macintosh Compatible Full Name
+#   f = Preferred Family Name
+#   s = Subfamily Name (Style Name)
+#   l = Compatible Family Menu Name
+#   m = 1, Macintosh Compatible Full Name
 
 [SomeDevanagari-Light]
-  f=  Some Devanagari
-  s=  Light
-  l=  Some Devanagari Light
-  m=1,Some Devanagari Light
+  f = Some Devanagari
+  s = Light
+  l = Some Devanagari Light
 
 [SomeDevanagari-Regular]
-  f=  Some Devanagari
-  s=  Regular
-  l=  Some Devanagari
-  m=1,Some Devanagari
+  f = Some Devanagari
+  s = Regular
 
 [SomeDevanagari-Medium]
-  f=  Some Devanagari
-  s=  Medium
-  l=  Some Devanagari Medium
-  m=1,Some Devanagari Medium
+  f = Some Devanagari
+  s = Medium
+  l = Some Devanagari Medium
 
 [SomeDevanagari-SemiBold]
-  f=  Some Devanagari
-  s=  SemiBold
-  l=  Some Devanagari SemiBold
-  m=1,Some Devanagari SemiBold
+  f = Some Devanagari
+  s = SemiBold
+  l = Some Devanagari SemiBold
 
 [SomeDevanagari-Bold]
-  f=  Some Devanagari
-  s=  Bold
-  l=  Some Devanagari
-  m=1,Some Devanagari Bold
-# Style-linked because of `l` (the same as Regular's)
-#   and `styles/Bold/fontinfo` (`IsBoldStyle true`).
+  f = Some Devanagari
+  s = Bold
+  # styles/Bold/fontinfo: IsBoldStyle true
